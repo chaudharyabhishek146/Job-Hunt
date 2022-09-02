@@ -1,5 +1,9 @@
 
-Job Hunt
+Job Hunt Full Stack  MERN APP
+
+Frontend - ReactJs
+Backend- NodeJs and ExpressJs
+Database-MongoDb
 
 
 In this app user can search jobs using the categories and company.User can apply the jobs while registering himseelf and login to the app. By filling his /her profile he can also get the carrer advice according to their interest filled byu the user. User can also add the jobs to thier watchlist for future use.
