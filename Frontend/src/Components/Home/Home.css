@@ -1,0 +1,155 @@
+.bg-home {
+    background: url("../../assests/img/cover1.webp") center center;
+    overflow-x: hidden;
+    /* background: url("https://themesdesign.in/jobya/images/bg-home.jpg") center center; */
+
+}
+
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .bg-home,
+    .bg-half {
+        padding: 190px 0px 120px;
+    }
+}
+
+.bg-home {
+    padding: 300px 0px 175px 0px;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+
+}
+
+.bg-overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet section {
+    display: block;
+}
+
+#cover {
+    filter: blur(2px);
+    -webkit-filter: blur(12px);
+    height: 100%;
+
+}
+
+section {
+    display: block;
+}
+
+::selection {
+    background: #4466d8;
+    color: #ffffff;
+}
+
+.nodata1 {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(rgb(227, 217, 217), transparent);
+    /* mask-image:url("https://img.freepik.com/free-vector/empty-concept-illustration_114360-1233.jpg?w=826&t=st=1661375835~exp=1661376435~hmac=2e442c4fd53d5b949ba3da522cb0e3dcf746af0b541d945c285bb7f45ee53b3d") center center; */
+}
+
+.nodata {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+
+    mask-image: url("https://img.freepik.com/free-vector/empty-concept-illustration_114360-1233.jpg?w=826&t=st=1661375835~exp=1661376435~hmac=2e442c4fd53d5b949ba3da522cb0e3dcf746af0b541d945c285bb7f45ee53b3d") center center;
+}
+
+#nodatatxt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100px;
+    font-size: 50px;
+}
+
+/* .jumbotron {
+    background-image: url("../../assests/img/cover1.jpg");
+} */
+
+#jobcard {
+    box-shadow: -10px 5px 10px gray;
+    top: 0;
+    transition: top ease 0.2s;
+}
+
+#jobcard:hover {
+    top: -5px;
+}
+
+.home-registration-form {
+    border-radius: 20px;
+    background-color: rgba(20, 20, 20, 0.4);
+}
+
+
+/* //scrollbar */
+
+#overflow::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+#overflow::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-radius: 7px;
+}
+
+/* Handle */
+#overflow::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    background: rgba(253, 253, 253, 0.8);
+    box-shadow: inset 0 0 3px rgba(250, 249, 249, 0.2);
+}
+
+#overflow::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 249, 249, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 0px;
+    border-radius: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 7px;
+    border-radius: 0px;
+    background: rgba(15, 15, 15, 0.8);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(17, 17, 17, 0.3);
+}

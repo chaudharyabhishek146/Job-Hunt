@@ -1,0 +1,42 @@
+@media (min-width: 200px) and (max-width: 768px){
+    .bg-home,.bg-half {
+        padding: 190px 0px 120px;
+    }
+}
+
+
+.bg-half {
+    padding: 280px 0px 180px 0px;
+    background-image: url("../../assests/img/profilecover.webp");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+   
+    
+}
+.About{
+    background-color: white;
+    padding: 60px;
+}
+.candidates-profile-education {
+    padding: 64px 24px 24px;
+  }
+  
+  .candidates-profile-education .profile-education-icon {
+    
+    
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -120px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  
+  
+  

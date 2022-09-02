@@ -1,0 +1,42 @@
+version: '3.5'
+services:
+  db:
+    image: mongo
+    ports:
+      - 27000:27017
+  
+  authapi:
+    image: authapi
+    ports:
+      - 3001:3001
+    environment:
+      MONGODB_SERVER: "mongodb://db:27017/AuthDB"
+      FRONT: 'http://localhost:9000'
+
+  fetchapi:
+    image: fetchapi
+    ports:
+      - 3002:3002
+    environment:
+      MONGODB_SERVER: "mongodb://db:27017/CompaniesDB"
+
+  profileapi:
+    image: profileapi
+    ports:
+      - 8000:8000
+    environment:
+      MONGODB_SERVER: "mongodb://db:27017/ProfileDB"
+
+  watchlistapi:
+    image: watchapi
+    ports:
+      - 8001:8001
+    environment:
+      MONGODB_SERVER: "mongodb://db:27017/WatchlistDB"
+
+  frontend:
+    image: jobhunt
+    ports:
+      - 9000:80
+  
+  
